@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const defaultResult = 0;
 let currentResult = defaultResult;
 let logEntries = [];
@@ -74,3 +75,5 @@ addBtn.addEventListener("click", add);
 subtractBtn.addEventListener("click", subtract);
 multiplyBtn.addEventListener("click", multiply);
 divideBtn.addEventListener("click", divide);
+=======
+>>>>>>> Stashed changes
