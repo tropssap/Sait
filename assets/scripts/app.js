@@ -33,6 +33,7 @@ function calculateResult(calcculationType) {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
   let mathOperator;
+  if (enteredNumber){
   if (calcculationType === "ADD") {
     currentResult += enteredNumber;
     mathOperator = "+";
@@ -45,7 +46,7 @@ function calculateResult(calcculationType) {
   } else if (calcculationType === "DIVIDE") {
     currentResult /= enteredNumber;
     mathOperator = "/";
-   
+  }
   }
 
   createAndWriteOutput(mathOperator, initialResult, enteredNumber);
